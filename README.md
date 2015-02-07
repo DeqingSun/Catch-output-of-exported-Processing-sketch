@@ -1,4 +1,4 @@
-# Catch-output-of-exported-Processing-sketch
+# Catch output of exported Processing sketch
 
 
 ##Mac OS
