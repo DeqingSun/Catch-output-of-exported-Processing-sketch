@@ -34,4 +34,9 @@ You should see like "chmod +x /Volumes/Mac_storage/github/Catch-output-of-export
 
 Press return to finish this step.
 
+###Get output
+
+Double click the .command file and you should see a text file with output.
+
+![output text](images/mac_text_output.png)
 
