@@ -40,3 +40,8 @@ Double click the .command file and you should see a text file with output.
 
 ![output text](images/mac_text_output.png)
 
+##Windows
+
+The standard streams works the same way. Double click the bat file will do the trick.
+
+![output text](images/win_text_output.png)
