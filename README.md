@@ -3,9 +3,23 @@
 
 ##Mac OS
 
+Prior to Mountain Lion, stdout and stderr (where println goes to) is forwarded to system log, which can be seen in Console app. So we need to manually forward those standard streams to log file so we can debug sketchs.
+
+###Folder structure of Mac OS Processing application
+
+The exported application has a executable file in "Contents/MacOS/". The application can be opened by executing that file. 
+
+![right click -> "show package contents"](images/mac_application_structure.png)
+
+When that file is executed in terminal. You should see all it's print and error in terminal.
+
+![terminal](images/mac_terminal_output.png)
+
+There is a "Mac_merge_stdout_stderr.command" file redirect stdout and stderr to a text file. For more info refer to http://en.wikipedia.org/wiki/Redirection_(computing)
+
 ###Add execution permission
 
-If you see something like this when you double click .command file: (do not have appropriate access privileges)
+If you see something like this when you double click .command file: (The file “Mac_merge_stdout_stderr.command” could not be executed because you do not have appropriate access privileges)
 
 ![do not have appropriate access privileges](images/mac_no_x_permission.png)
 
